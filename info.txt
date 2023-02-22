@@ -1,0 +1,15 @@
+https://www.itsolutionstuff.com/post/laravel-react-js-crud-application-tutorialexample.html
+https://github.com/savanihd/Laravel-React-JS-CRUD-Vite-Tailwind-CSS
+
+composer create-project laravel/laravel l10_react_crud
+
+composer require laravel/breeze --dev
+php artisan breeze:install react
+npm install
+php artisan migrate
+
+php artisan make:controller PostController --resource
+
+npm instal --save-dev react react-dom
+npm instal --save-dev lodash
+npm instal --save-dev @inertiajs/inertia @inertiajs/inertia-react @inertiajs/progress
