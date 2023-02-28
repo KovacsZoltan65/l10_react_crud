@@ -10,6 +10,7 @@ php artisan migrate
 
 php artisan make:controller PostController --resource
 
-npm instal --save-dev react react-dom
+npm instal --save-dev react react-dom react-router-dom
 npm instal --save-dev lodash
 npm instal --save-dev @inertiajs/inertia @inertiajs/inertia-react @inertiajs/progress
+npm install --save-dev redux react-redux @reduxjs/toolkit
